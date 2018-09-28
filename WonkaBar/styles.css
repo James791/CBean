@@ -1,11 +1,16 @@
    .ticket {
     width: 425px;
-    height: 180px;
+    height: 190px;
+    top:0px;
     position: relative;
-    animation: openticket 5s;
-   transform: rotate(-90deg) translateX(-150px); 
-   
+   transform: rotate(-90deg) translateX(-150px) translateY(7px); 
+       
 }
+
+.bar:hover + .ticket {
+          transition: top 2s;
+          top: -200px;
+       }
 
 @keyframes openticket {
     from {top: 0px;}
