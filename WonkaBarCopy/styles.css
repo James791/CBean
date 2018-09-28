@@ -1,0 +1,22 @@
+   .ticket {
+    width: 425px;
+    height: 180px;
+    position: relative;
+    animation: openticket 5s;
+   transform: rotate(-90deg) translateX(-150px); 
+   
+}
+
+@keyframes openticket {
+    from {top: 0px;}
+    to {top: -200px;}
+}
+    
+ .bar {
+    width: 450px;
+    height: 200px;
+    position: relative;
+    transform: rotate(-90deg) translateX(-150px) translateY(450px);
+    z-index:20;
+   
+}
