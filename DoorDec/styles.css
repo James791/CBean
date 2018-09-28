@@ -1,0 +1,52 @@
+
+.background{
+top:0px;
+left: 0px;
+position:absolute;
+width: 946px;
+height:946px
+}
+
+.counter{
+top:370px;
+left: -50px;
+position:absolute;
+width: 1650px;
+height:1650px;
+}
+.rack{
+top:320px;
+left: 200px;
+position:absolute;
+width: 850px;
+height:850px;
+
+
+}
+.bar:hover + .ticket {
+          transition: top 2s;
+          top: -200px;
+       }
+
+ .ticket {
+    width: 425px;
+    height: 180px;
+    position: relative;
+    animation: openticket 5s;
+   transform: rotate(-90deg) translateX(-150px); 
+   
+}
+
+@keyframes openticket {
+    from {top: 0px;}
+    to {top: -200px;}
+}
+    
+ .bar {
+    width: 450px;
+    height: 200px;
+    position: relative;
+    transform: rotate(-90deg) translateX(-150px) translateY(450px);
+    z-index:20;
+   
+}
